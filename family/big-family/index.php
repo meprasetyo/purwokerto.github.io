@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta charset="utf-8">
+
+<title>My Family</title>
+<meta name="description" content="Mohamad Eko Prasetyo, Ini adalah keluarga saya.">
+<meta name="keywords" content=" Website Purwokerto, Aplikasi (APP) Android Purwokerto, Aplikasi Dekstop Purwokerto, Sistem Informasi Purwokerto, Software Purwokerto" />
+
+<meta name="rating" content="general">
+<meta name="robots" content="index, follow">
+<meta name="distribution" content="world" />
+<meta name="author" content="Mohamad" />
+<meta name="generator" content="Mohamad" />
+<link rel="SHORTCUT ICON" href="../../images/logo/accounts.jpg">
+
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+<link href="../../link/assets/css/bootstrap.min.css" rel="stylesheet">    
+
+<link href="../../link/assets/css/style.css" rel="stylesheet">
+<link href="../../link/assets/css/responsive.css" rel="stylesheet">
+<link href="../../link/assets/css/colors.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="../../css/scroll/css/style.css" rel="stylesheet" />
+<style type="text/css">
+
+#back-top {
+ position: fixed;
+ z-index: 1000;
+ bottom: 40px;
+ right: 50px;
+}
+#back-top a {
+ width: 60px;
+ height: 60px;
+ display: block;
+ text-align: center;
+ font: 11px/100% Arial, Helvetica, sans-serif;
+ text-transform: uppercase;
+ text-decoration: none;
+ color: #FFFFFF;
+ background: #323639;
+ -webkit-transition: 1s;
+ -moz-transition: 1s;
+ transition: 1s;
+}
+#back-top a:hover {
+ background: #EC0000;
+}
+
+#back-top i {
+ margin-top: 15px;
+ font-size: 28px;
+}
+
+@media only screen
+and (min-width : 320px)
+and (max-width : 480px) {
+ #back-top {
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+}
+#back-top a {
+  width: 40px;
+  height: 40px;
+}
+#back-top i {
+  margin-top: 7px;
+  font-size: 20px;
+}
+}
+
+</style>
+</head>
+<body>
+
+    <header id="masthead" class="site-header site-header-fill">
+
+        <nav id="primary-navigation" class="site-navigation">
+
+            <div class="container-fluid">
+
+                <div class="navbar-header">
+
+                    <a href="index.html" class="site-title yellow-text"><span class="white-text">My-Family </span></a>
+
+                </div>
+
+                <div class="main-menu" id="perfect-navbar-collapse">
+
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li><a href="http://purwokerto.azurewebsites.net/">Halaman Utama</a></li>
+                       <!--  <li class="dropdown">
+                            <a  class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Project <i class="fa fa-angle-down hidden-xs" aria-hidden="true"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="link/project">Contoh Sistem</a></li>
+                                <li><a href="crud" target="_blank">CRUD Cepat</a></li>
+                                <li><a href="https://www.youtube.com/watch?v=UOBYpzoYXUE">SEO</a></li>
+
+
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a  class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Portofolio <i class="fa fa-angle-down hidden-xs" aria-hidden="true"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="perumahan" target="_blank">SanjayaLand</a></li>
+                                <li><a href="best" target="_blank">BestAdvertising</a></li>
+                                <li><a href="accounts" target="_blank">Accounts</a></li>
+                                <li><a href="https://play.google.com/store/apps/details?id=sanjayalandaplikasi.sanjayaland.www.sanjayalandaplikasi" target="_blank">Aplikasi Android</a></li>
+                            </ul>
+                        </li>
+                         -->
+                    </ul><!-- /.navbar-nav -->
+
+                </div><!-- /.navbar-collapse -->
+                
+            </div>
+
+        </nav><!-- /.site-navigation -->
+        
+    </header><!-- /#masthead -->
+
+    <main id="main" class="site-main">
+
+        <section class="site-section-small portfolio">
+
+            <div class="container-fluid">
+            <div class="container">
+                <h3 class="section-title-big text-center" style="font-size: 25px; padding-top: 20px;">My Big Family</h3>
+            </div>
+ 
+            <div class="row" id="grid" style="margin-right: 10px;margin-left: 10px;">
+
+
+
+              <div class="col-lg-fifth col-md-3 col-sm-4 col-xs-6" data-groups='["uiux"]'>
+                <a   class="portfolio-link" style="padding-bottom: 10px;padding-left: 10px;padding-right: 10px;">
+                    <img data-src="../img/big-family/1.jpg"  src="../../images/blank.jpg" class="lazy img-carousel" style="border: 1px solid #b1b1b1;" alt="" >
+                    <div class="portfolio-info">
+                        <div class="portfolio-info-center "  >
+                            <h3 style="padding-top: 60px;">My Family</h3>
+                        </div>
+                        <div class="portfolio-info-bottom">
+                            <p>Foto liburan ke pantai.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-fifth col-md-3 col-sm-4 col-xs-6" data-groups='["uiux"]'>
+                <a  class="portfolio-link" style="padding-bottom: 10px;padding-left: 10px;padding-right: 10px;" >
+                    <img data-src="../img/big-family/2.jpg"  src="../../images/blank.jpg" class="lazy img-carousel" style="border: 1px solid #b1b1b1;" alt="" >
+                    <div class="portfolio-info">
+                        <div class="portfolio-info-center "  >
+                            <h3 style="padding-top: 60px;">My Family</h3>
+                        </div>
+                        <div class="portfolio-info-bottom">
+                            <p>Foto liburan ke pantai.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-fifth col-md-3 col-sm-4 col-xs-6" data-groups='["uiux"]'>
+                <a class="portfolio-link" style="padding-bottom: 10px;padding-left: 10px;padding-right: 10px;">
+                    <img data-src="../img/big-family/3.jpg"  src="../../images/blank.jpg" class="lazy img-carousel" style="border: 1px solid #b1b1b1;"  alt="" >
+                    <div class="portfolio-info">
+                        <div class="portfolio-info-center "  >
+                            <h3 style="padding-top: 60px;">My Family</h3>
+                        </div>
+                        <div class="portfolio-info-bottom">
+                            <p>Foto liburan ke pantai.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-fifth col-md-3 col-sm-4 col-xs-6" data-groups='["uiux"]'>
+                <a class="portfolio-link" style="padding-bottom: 10px;padding-left: 10px;padding-right: 10px;">
+                    <img data-src="../img/big-family/4.jpg"  src="../../images/blank.jpg" class="lazy img-carousel" style="border: 1px solid #b1b1b1;" alt="" class="img-carousel">
+                    <div class="portfolio-info">
+                        <div class="portfolio-info-center "  >
+                            <h3 style="padding-top: 60px;">My Family</h3>
+                        </div>
+                        <div class="portfolio-info-bottom">
+                            <p>Foto liburan ke pantai.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+
+
+
+
+              <div class="col-lg-fifth col-md-3 col-sm-4 col-xs-6" data-groups='["uiux"]'>
+                <a   class="portfolio-link" style="padding-bottom: 10px;padding-left: 10px;padding-right: 10px;">
+                    <img data-src="../img/big-family/5.jpg"  src="../../images/blank.jpg" class="lazy img-carousel" style="border: 1px solid #b1b1b1;" alt="" >
+                    <div class="portfolio-info">
+                        <div class="portfolio-info-center "  >
+                            <h3 style="padding-top: 60px;">My Family</h3>
+                        </div>
+                        <div class="portfolio-info-bottom">
+                            <p>Foto wisuda nur (adik).</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-fifth col-md-3 col-sm-4 col-xs-6" data-groups='["uiux"]'>
+                <a  class="portfolio-link" style="padding-bottom: 10px;padding-left: 10px;padding-right: 10px;" >
+                    <img data-src="../img/big-family/6.jpg"  src="../../images/blank.jpg" class="lazy img-carousel" style="border: 1px solid #b1b1b1;" alt="" >
+                    <div class="portfolio-info">
+                        <div class="portfolio-info-center "  >
+                            <h3 style="padding-top: 60px;">My Family</h3>
+                        </div>
+                        <div class="portfolio-info-bottom">
+                            <p>Foto wisuda nur (adik).</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-fifth col-md-3 col-sm-4 col-xs-6" data-groups='["uiux"]'>
+                <a class="portfolio-link" style="padding-bottom: 10px;padding-left: 10px;padding-right: 10px;">
+                    <img data-src="../img/big-family/7.jpg"  src="../../images/blank.jpg" class="lazy img-carousel" style="border: 1px solid #b1b1b1;"  alt="" >
+                    <div class="portfolio-info">
+                        <div class="portfolio-info-center "  >
+                            <h3 style="padding-top: 60px;">My Family</h3>
+                        </div>
+                        <div class="portfolio-info-bottom">
+                            <p>Foto liburan ke jogja.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-fifth col-md-3 col-sm-4 col-xs-6" data-groups='["uiux"]'>
+                <a class="portfolio-link" style="padding-bottom: 10px;padding-left: 10px;padding-right: 10px;">
+                    <img data-src="../img/big-family/8.jpg"  src="../../images/blank.jpg" class="lazy img-carousel" style="border: 1px solid #b1b1b1;" alt="" class="img-carousel">
+                    <div class="portfolio-info">
+                        <div class="portfolio-info-center "  >
+                            <h3 style="padding-top: 60px;">My Family</h3>
+                        </div>
+                        <div class="portfolio-info-bottom">
+                            <p>Foto liburan ke jogja.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+
+
+
+
+              <div class="col-lg-fifth col-md-3 col-sm-4 col-xs-6" data-groups='["uiux"]'>
+                <a   class="portfolio-link" style="padding-bottom: 10px;padding-left: 10px;padding-right: 10px;">
+                    <img data-src="../img/big-family/9.jpg"  src="../../images/blank.jpg" class="lazy img-carousel" style="border: 1px solid #b1b1b1;" alt="" >
+                    <div class="portfolio-info">
+                        <div class="portfolio-info-center "  >
+                            <h3 style="padding-top: 60px;">My Family</h3>
+                        </div>
+                        <div class="portfolio-info-bottom">
+                            <p>Foto liburan ke jogja.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-fifth col-md-3 col-sm-4 col-xs-6" data-groups='["uiux"]'>
+                <a  class="portfolio-link" style="padding-bottom: 10px;padding-left: 10px;padding-right: 10px;" >
+                    <img data-src="../img/big-family/10.jpg"  src="../../images/blank.jpg" class="lazy img-carousel" style="border: 1px solid #b1b1b1;" alt="" >
+                    <div class="portfolio-info">
+                        <div class="portfolio-info-center "  >
+                            <h3 style="padding-top: 60px;">My Family</h3>
+                        </div>
+                        <div class="portfolio-info-bottom">
+                            <p>Foto liburan ke jogja.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-fifth col-md-3 col-sm-4 col-xs-6" data-groups='["uiux"]'>
+                <a class="portfolio-link" style="padding-bottom: 10px;padding-left: 10px;padding-right: 10px;">
+                    <img data-src="../img/big-family/11.jpg"  src="../../images/blank.jpg" class="lazy img-carousel" style="border: 1px solid #b1b1b1;"  alt="" >
+                    <div class="portfolio-info">
+                        <div class="portfolio-info-center "  >
+                            <h3 style="padding-top: 60px;">My Family</h3>
+                        </div>
+                        <div class="portfolio-info-bottom">
+                            <p>Foto liburan ke jogja.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-fifth col-md-3 col-sm-4 col-xs-6" data-groups='["uiux"]'>
+                <a class="portfolio-link" style="padding-bottom: 10px;padding-left: 10px;padding-right: 10px;">
+                    <img data-src="../img/big-family/12.jpg"  src="../../images/blank.jpg" class="lazy img-carousel" style="border: 1px solid #b1b1b1;" alt="" class="img-carousel">
+                    <div class="portfolio-info">
+                        <div class="portfolio-info-center "  >
+                            <h3 style="padding-top: 60px;">My Family</h3>
+                        </div>
+                        <div class="portfolio-info-bottom">
+                            <p>Foto liburan ke jogja.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+
+
+
+
+              <div class="col-lg-fifth col-md-3 col-sm-4 col-xs-6" data-groups='["uiux"]'>
+                <a   class="portfolio-link" style="padding-bottom: 10px;padding-left: 10px;padding-right: 10px;">
+                    <img data-src="../img/big-family/13.jpg"  src="../../images/blank.jpg" class="lazy img-carousel" style="border: 1px solid #b1b1b1;" alt="" >
+                    <div class="portfolio-info">
+                        <div class="portfolio-info-center "  >
+                            <h3 style="padding-top: 60px;">My Family</h3>
+                        </div>
+                        <div class="portfolio-info-bottom">
+                            <p>Foto liburan ke jogja.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-fifth col-md-3 col-sm-4 col-xs-6" data-groups='["uiux"]'>
+                <a  class="portfolio-link" style="padding-bottom: 10px;padding-left: 10px;padding-right: 10px;" >
+                    <img data-src="../img/big-family/14.jpg"  src="../../images/blank.jpg" class="lazy img-carousel" style="border: 1px solid #b1b1b1;" alt="" >
+                    <div class="portfolio-info">
+                        <div class="portfolio-info-center "  >
+                            <h3 style="padding-top: 60px;">My Family</h3>
+                        </div>
+                        <div class="portfolio-info-bottom">
+                            <p>Foto liburan ke jogja.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-fifth col-md-3 col-sm-4 col-xs-6" data-groups='["uiux"]'>
+                <a class="portfolio-link" style="padding-bottom: 10px;padding-left: 10px;padding-right: 10px;">
+                    <img data-src="../img/big-family/15.jpg"  src="../../images/blank.jpg" class="lazy img-carousel" style="border: 1px solid #b1b1b1;"  alt="" >
+                    <div class="portfolio-info">
+                        <div class="portfolio-info-center "  >
+                            <h3 style="padding-top: 60px;">My Family</h3>
+                        </div>
+                        <div class="portfolio-info-bottom">
+                            <p>Foto liburan ke jogja.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-fifth col-md-3 col-sm-4 col-xs-6" data-groups='["uiux"]'>
+                <a class="portfolio-link" style="padding-bottom: 10px;padding-left: 10px;padding-right: 10px;">
+                    <img data-src="../img/big-family/16.jpg"  src="../../images/blank.jpg" class="lazy img-carousel" style="border: 1px solid #b1b1b1;" alt="" class="img-carousel">
+                    <div class="portfolio-info">
+                        <div class="portfolio-info-center "  >
+                            <h3 style="padding-top: 60px;">My Family</h3>
+                        </div>
+                        <div class="portfolio-info-bottom">
+                            <p>Foto liburan ke jogja.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+
+
+
+
+              <div class="col-lg-fifth col-md-3 col-sm-4 col-xs-6" data-groups='["uiux"]'>
+                <a   class="portfolio-link" style="padding-bottom: 10px;padding-left: 10px;padding-right: 10px;">
+                    <img data-src="../img/big-family/17.jpg"  src="../../images/blank.jpg" class="lazy img-carousel" style="border: 1px solid #b1b1b1;" alt="" >
+                    <div class="portfolio-info">
+                        <div class="portfolio-info-center "  >
+                            <h3 style="padding-top: 60px;">My Family</h3>
+                        </div>
+                        <div class="portfolio-info-bottom">
+                            <p>Foto liburan ke jogja.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- <div class="col-lg-fifth col-md-3 col-sm-4 col-xs-6" data-groups='["uiux"]'>
+                <a  class="portfolio-link" style="padding-bottom: 10px;padding-left: 10px;padding-right: 10px;" >
+                    <img data-src="../img/my-son/18.jpg"  src="../../images/blank.jpg" class="lazy img-carousel" style="border: 1px solid #b1b1b1;" alt="" >
+                    <div class="portfolio-info">
+                        <div class="portfolio-info-center "  >
+                            <h3 style="padding-top: 60px;">My Son</h3>
+                        </div>
+                        <div class="portfolio-info-bottom">
+                            <p>Serj Adam I.H. adalah anak laki-laki saya.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-fifth col-md-3 col-sm-4 col-xs-6" data-groups='["uiux"]'>
+                <a class="portfolio-link" style="padding-bottom: 10px;padding-left: 10px;padding-right: 10px;">
+                    <img data-src="../img/my-son/19.jpg"  src="../../images/blank.jpg" class="lazy img-carousel" style="border: 1px solid #b1b1b1;"  alt="" >
+                    <div class="portfolio-info">
+                        <div class="portfolio-info-center "  >
+                            <h3 style="padding-top: 60px;">My Son</h3>
+                        </div>
+                        <div class="portfolio-info-bottom">
+                            <p>Serj Adam I.H. adalah anak laki-laki saya.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-fifth col-md-3 col-sm-4 col-xs-6" data-groups='["uiux"]'>
+                <a class="portfolio-link" style="padding-bottom: 10px;padding-left: 10px;padding-right: 10px;">
+                    <img data-src="../img/my-son/20.jpg"  src="../../images/blank.jpg" class="lazy img-carousel" style="border: 1px solid #b1b1b1;" alt="" class="img-carousel">
+                    <div class="portfolio-info">
+                        <div class="portfolio-info-center "  >
+                            <h3 style="padding-top: 60px;">My Son</h3>
+                        </div>
+                        <div class="portfolio-info-bottom">
+                            <p>Serj Adam I.H. adalah anak laki-laki saya.</p>
+                        </div>
+                    </div>
+                </a>
+            </div> -->
+
+          <!--   <div class="col-lg-fifth col-md-3 col-sm-4 col-xs-6" data-groups='["uiux"]'>
+                <a  class="portfolio-link" style="padding-bottom: 10px;padding-left: 10px;padding-right: 10px;" >
+                    <img data-src="../img/my-son/114.jpg"  src="../../images/blank.jpg" class="lazy img-carousel" style="border: 1px solid #b1b1b1;" alt="" >
+                    <div class="portfolio-info">
+                        <div class="portfolio-info-center "  >
+                            <h3 style="padding-top: 60px;">My Son</h3>
+                        </div>
+                        <div class="portfolio-info-bottom">
+                            <p>Serj Adam I.H. adalah anak laki-laki saya.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-fifth col-md-3 col-sm-4 col-xs-6" data-groups='["uiux"]'>
+                <a class="portfolio-link" style="padding-bottom: 10px;padding-left: 10px;padding-right: 10px;">
+                    <img data-src="../img/my-son/115.jpg"  src="../../images/blank.jpg" class="lazy img-carousel" style="border: 1px solid #b1b1b1;"  alt="" >
+                    <div class="portfolio-info">
+                        <div class="portfolio-info-center "  >
+                            <h3 style="padding-top: 60px;">My Son</h3>
+                        </div>
+                        <div class="portfolio-info-bottom">
+                            <p>Serj Adam I.H. adalah anak laki-laki saya.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-fifth col-md-3 col-sm-4 col-xs-6" data-groups='["uiux"]'>
+                <a class="portfolio-link" style="padding-bottom: 10px;padding-left: 10px;padding-right: 10px;">
+                    <img data-src="../img/my-son/116.jpg"  src="../../images/blank.jpg" class="lazy img-carousel" style="border: 1px solid #b1b1b1;" alt="" class="img-carousel">
+                    <div class="portfolio-info">
+                        <div class="portfolio-info-center "  >
+                            <h3 style="padding-top: 60px;">My Son</h3>
+                        </div>
+                        <div class="portfolio-info-bottom">
+                            <p>Serj Adam I.H. adalah anak laki-laki saya.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+ -->
+
+
+        </div>
+    </div>
+</section>
+
+<p id="back-top">
+  <a href="#top"><i class="fa fa-angle-up"></i></a>
+
+  <a href="https://api.whatsapp.com/send?phone=628994190773" style="background: #009A01"><i class="fa fa-whatsapp"></i></a>
+</p>
+
+				
+
+		
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+<script src="../../link/assets/js/bootstrap.min.js"></script>
+<script src="../../link/assets/js/jquery.slicknav.min.js"></script>
+<script src="../../link/assets/js/slick.min.js"></script>
+<script src="../../link/assets/js/skrollr.min.js"></script>
+<script src="../../link/assets/js/jquery.countTo.min.js"></script>
+<script src="../../link/assets/js/jquery.shuffle.min.js"></script>
+<script src="../../link/assets/js/script.js"></script>
+<script src="../../css/scroll/js/scroll.js"></script>
+</body>
+</html>
