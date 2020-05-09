@@ -1921,3 +1921,14 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
 .input-order-tab{
   width: 80px;
 }
+
+.phoneorder{
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .phoneorder{
+    max-width: fit-content;
+    display: flex;
+  }
+}
