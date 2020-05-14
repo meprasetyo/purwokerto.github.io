@@ -1,5 +1,4 @@
    
-
      $(window).on('load',function(e){
         $("#content").load("beranda.html");
         $("#nav-data").load("nav.html");
@@ -28,6 +27,7 @@
 
     $("#profile").on('click',function(e){
         $("#content").load("profile/data.html");
+        $(window).scrollTop(0);
         $("#profile").attr("class","active-menu-right");
         $("#beranda").attr("class","menu-waves-block");
         $("#sekolah").attr("class","menu-waves-block");
@@ -49,6 +49,7 @@
 
     $("#sekolah").on('click',function(e){
         $("#content").load("school/data.html");
+        $(window).scrollTop(0);
         $("#sekolah").attr("class","active-menu-right");
         $("#profile").attr("class","menu-waves-block");
         $("#beranda").attr("class","menu-waves-block");
@@ -70,6 +71,7 @@
 
     $("#kontak").on('click',function(e){
         $("#content").load("contact/data.html");
+        $(window).scrollTop(0);
         $("#kontak").attr("class","active-menu-right");
         $("#profile").attr("class","menu-waves-block");
         $("#beranda").attr("class","menu-waves-block");
@@ -91,6 +93,7 @@
 
     $("#pengalaman").on('click',function(e){
         $("#content").load("work-experience/data.html");
+        $(window).scrollTop(0);
         $("#pengalaman").attr("class","active-menu-right");
         $("#profile").attr("class","menu-waves-block");
         $("#beranda").attr("class","menu-waves-block");
@@ -114,6 +117,7 @@
 
     $("#m-profile").on('click',function(e){
         $("#content").load("profile/data.html");
+        $(window).scrollTop(0);
         $("#profile").attr("class","active-menu-right");
         $("#beranda").attr("class","menu-waves-block");
         $("#sekolah").attr("class","menu-waves-block");
@@ -135,6 +139,7 @@
 
     $("#m-sekolah").on('click',function(e){
         $("#content").load("school/data.html");
+        $(window).scrollTop(0);
         $("#sekolah").attr("class","active-menu-right");
         $("#profile").attr("class","menu-waves-block");
         $("#beranda").attr("class","menu-waves-block");
@@ -156,6 +161,7 @@
 
     $("#m-kontak").on('click',function(e){
         $("#content").load("contact/data.html");
+        $(window).scrollTop(0);
         $("#kontak").attr("class","active-menu-right");
         $("#profile").attr("class","menu-waves-block");
         $("#beranda").attr("class","menu-waves-block");
@@ -177,6 +183,7 @@
 
     $("#m-pengalaman").on('click',function(e){
         $("#content").load("work-experience/data.html");
+        $(window).scrollTop(0);
         $("#pengalaman").attr("class","active-menu-right");
         $("#profile").attr("class","menu-waves-block");
         $("#beranda").attr("class","menu-waves-block");
