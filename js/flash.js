@@ -5,6 +5,9 @@
      });
 
     $("#beranda").on('click',function(e){
+        $("#body").attr("class","bd-w ls-closed");
+        $("#div-close").attr("style","display:none");
+
         $("#content").load("beranda.html");
         $("#beranda").attr("class","active-menu-right");
         $("#profile").attr("class","menu-waves-block");
@@ -23,9 +26,14 @@
         $("#id-kontak").attr("class","material-icons");
         $("#id-pengalaman").attr("class","material-icons");
         $("#id-sekolah").attr("class","material-icons");
+
+
     });
 
     $("#profile").on('click',function(e){
+        $("#body").attr("class","bd-w ls-closed");
+        $("#div-close").attr("style","display:none");
+
         $("#content").load("profile/data.html");
         $(window).scrollTop(0);
         $("#profile").attr("class","active-menu-right");
@@ -48,6 +56,9 @@
      });
 
     $("#sekolah").on('click',function(e){
+        $("#body").attr("class","bd-w ls-closed");
+        $("#div-close").attr("style","display:none");
+
         $("#content").load("school/data.html");
         $(window).scrollTop(0);
         $("#sekolah").attr("class","active-menu-right");
@@ -70,6 +81,9 @@
     });
 
     $("#kontak").on('click',function(e){
+        $("#body").attr("class","bd-w ls-closed");
+        $("#div-close").attr("style","display:none");
+        
         $("#content").load("contact/data.html");
         $(window).scrollTop(0);
         $("#kontak").attr("class","active-menu-right");
@@ -92,6 +106,9 @@
     });
 
     $("#pengalaman").on('click',function(e){
+        $("#body").attr("class","bd-w ls-closed");
+        $("#div-close").attr("style","display:none");
+        
         $("#content").load("work-experience/data.html");
         $(window).scrollTop(0);
         $("#pengalaman").attr("class","active-menu-right");
