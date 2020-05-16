@@ -2,6 +2,7 @@
      $(window).on('load',function(e){
         $("#content").load("beranda.html");
         $("#nav-data").load("nav.html");
+        $("#leftsidebarx").load("menu.html");
      });
 
     $("#beranda").on('click',function(e){
