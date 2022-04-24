@@ -1,5 +1,11 @@
     $('#c').on('click', function(){
        window.open('https://docs.microsoft.com/en-us/dotnet/csharp/', '_blank');
+    });    
+    $('#postman').on('click', function(){
+       window.open('https://www.postman.com/', '_blank');
+    });
+    $('#postgres').on('click', function(){
+       window.open('https://www.postgresql.org/', '_blank');
     });
     $('#laravel').on('click', function(){
        window.open('https://laravel.com/docs/8.x/installation', '_blank');
@@ -71,6 +77,8 @@
        window.open('https://www.adobe.com/sea/products/photoshop.html?sdid=12B9DXDJ&mv=search&ef_id=Cj0KCQiAzfuNBhCGARIsAD1nu-_5uWtfbC03RLAa4U_usnFvjBJeLHQczcjvb8X8pEKuPwH61_Nnu3YaAkWEEALw_wcB:G:s&s_kwcid=AL!3085!3!473940109125!e!!g!!photoshop!703952628!38400836578&gclid=Cj0KCQiAzfuNBhCGARIsAD1nu-_5uWtfbC03RLAa4U_usnFvjBJeLHQczcjvb8X8pEKuPwH61_Nnu3YaAkWEEALw_wcB', '_blank');
     });
     $(document).ready(function(){
+      $('#postgres_img').attr('src','imgIcon/postgres.png');
+      $('#postman_img').attr('src','imgIcon/postman.png');
       $('#c_img').attr('src','imgIcon/c.png');
       $('#restapi_img').attr('src','imgIcon/restapi.png');
       $('#laravel_img').attr('src','imgIcon/laravel.png');
