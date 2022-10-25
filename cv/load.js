@@ -1,11 +1,11 @@
     $('#nextJS').on('click', function(){
-       window.open('https://docs.microsoft.com/en-us/dotnet/csharp/', '_blank');
+       window.open('https://nextjs.org/', '_blank');
     });    
     $('#figma').on('click', function(){
-       window.open('https://docs.microsoft.com/en-us/dotnet/csharp/', '_blank');
+       window.open('https://www.figma.com/', '_blank');
     });    
     $('#starUML').on('click', function(){
-       window.open('https://docs.microsoft.com/en-us/dotnet/csharp/', '_blank');
+       window.open('https://staruml.io/', '_blank');
     });    
     $('#c').on('click', function(){
        window.open('https://docs.microsoft.com/en-us/dotnet/csharp/', '_blank');
