@@ -115,5 +115,5 @@
       $('#photoshop_img').attr('src','imgIcon/photoshop.png');
         $('#nextJS_img').attr('src','imgIcon/nextJS.jpg');
       $('#figma_img').attr('src','imgIcon/figma.jpg');
-      $('#starUML_img').attr('src','imgIcon/starUML.png');
+      $('#starUML_img').attr('src','imgIcon/starUML.jpg');
      });
