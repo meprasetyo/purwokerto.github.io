@@ -1,3 +1,12 @@
+    $('#nextJS').on('click', function(){
+       window.open('https://docs.microsoft.com/en-us/dotnet/csharp/', '_blank');
+    });    
+    $('#figma').on('click', function(){
+       window.open('https://docs.microsoft.com/en-us/dotnet/csharp/', '_blank');
+    });    
+    $('#starUML').on('click', function(){
+       window.open('https://docs.microsoft.com/en-us/dotnet/csharp/', '_blank');
+    });    
     $('#c').on('click', function(){
        window.open('https://docs.microsoft.com/en-us/dotnet/csharp/', '_blank');
     });    
@@ -104,4 +113,7 @@
       $('#movavi_img').attr('src','imgIcon/movavi.png');
       $('#xampp_img').attr('src','imgIcon/xampp.png');
       $('#photoshop_img').attr('src','imgIcon/photoshop.png');
+        $('#nextJS').attr('src','imgIcon/nextJS.jpg');
+      $('#figma').attr('src','imgIcon/figma.jpg');
+      $('#starUML').attr('src','imgIcon/starUML.png');
      });
