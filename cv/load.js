@@ -116,5 +116,5 @@
         $('#nextJS_img').attr('src','imgIcon/nextJS.jpg');
       $('#figma_img').attr('src','imgIcon/figma.jpg');
       $('#starUML_img').attr('src','imgIcon/starUML.jpg');
-        $('#Redis_img').attr('src','imgIcon/Redis.jpg');
+        $('#Redis_img').attr('src','https://meprasetyo.github.io/Redis.png');
      });
