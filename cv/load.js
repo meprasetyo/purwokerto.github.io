@@ -25,6 +25,9 @@
     $('#react').on('click', function(){
        window.open('https://reactjs.org/', '_blank');
     });
+    $('#ts').on('click', function(){
+       window.open('https://www.typescriptlang.org/id/docs/handbook/react.html', '_blank');
+    });
     $('#css').on('click', function(){
        window.open('https://www.w3schools.com/css/', '_blank');
     });
@@ -111,6 +114,7 @@
       $('#visualcode_img').attr('src','imgIcon/visualcode.png');
       $('#filezila_img').attr('src','imgIcon/filezila.png');
       $('#movavi_img').attr('src','imgIcon/movavi.png');
+      $('#ts_img').attr('src','imgIcon/ts.png');
       $('#xampp_img').attr('src','imgIcon/xampp.png');
       $('#photoshop_img').attr('src','imgIcon/photoshop.png');
         $('#nextJS_img').attr('src','imgIcon/nextJS.jpg');
