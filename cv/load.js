@@ -1,6 +1,9 @@
     $('#nextJS').on('click', function(){
        window.open('https://nextjs.org/', '_blank');
     });    
+    $('#vb').on('click', function(){
+       window.open('https://learn.microsoft.com/en-us/dotnet/visual-basic/', '_blank');
+    });    
     $('#figma').on('click', function(){
        window.open('https://www.figma.com/', '_blank');
     });    
@@ -116,6 +119,7 @@
       $('#movavi_img').attr('src','imgIcon/movavi.png');
       $('#ts_img').attr('src','imgIcon/ts.png');
       $('#xampp_img').attr('src','imgIcon/xampp.png');
+      $('#vb_img').attr('src','imgIcon/VB.jpg');
       $('#photoshop_img').attr('src','imgIcon/photoshop.png');
         $('#nextJS_img').attr('src','imgIcon/nextJS.jpg');
       $('#figma_img').attr('src','imgIcon/figma.jpg');
