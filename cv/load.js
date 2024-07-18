@@ -101,8 +101,8 @@
       $('#postgres_img').attr('src','https://raw.githubusercontent.com/meprasetyo/meprasetyo.github.io/master/cv/imgIcon/postgres.png');
       $('#postman_img').attr('src','https://raw.githubusercontent.com/meprasetyo/meprasetyo.github.io/master/cv/imgIcon/postman.png');
       $('#c_img').attr('src','imgIcon/c.png');
-        $('#php8_img').attr('src','imgIcon/c.png');
-        $('#express_img').attr('src','imgIcon/c.png');
+        $('#php8_img').attr('src','imgIcon/php8.jpg');
+        $('#express_img').attr('src','imgIcon/express.jpg');
       $('#restapi_img').attr('src','imgIcon/restapi.png');
       $('#laravel_img').attr('src','imgIcon/laravel.png');
       $('#ci_img').attr('src','imgIcon/CI.png');
