@@ -1,9 +1,7 @@
     $('#nextJS').on('click', function(){
        window.open('https://nextjs.org/', '_blank');
     });    
-    $('#php8').on('click', function(){
-       window.open('https://www.php.net/releases/8.0/en.php', '_blank');
-    });   
+  
     $('#express').on('click', function(){
        window.open('https://expressjs.com/', '_blank');
     });   
@@ -101,7 +99,7 @@
       $('#postgres_img').attr('src','https://raw.githubusercontent.com/meprasetyo/meprasetyo.github.io/master/cv/imgIcon/postgres.png');
       $('#postman_img').attr('src','https://raw.githubusercontent.com/meprasetyo/meprasetyo.github.io/master/cv/imgIcon/postman.png');
       $('#c_img').attr('src','imgIcon/c.png');
-        $('#php8_img').attr('src','imgIcon/php8.jpg');
+      
         $('#express_img').attr('src','imgIcon/express.jpg');
       $('#restapi_img').attr('src','imgIcon/restapi.png');
       $('#laravel_img').attr('src','imgIcon/laravel.png');
