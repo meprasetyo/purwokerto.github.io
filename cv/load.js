@@ -10,7 +10,10 @@
     });    
     $('#figma').on('click', function(){
        window.open('https://www.figma.com/', '_blank');
-    });    
+    });   
+    $('#py').on('click', function(){
+      window.open('https://www.python.org/', '_blank');
+   });    
     $('#starUML').on('click', function(){
        window.open('https://staruml.io/', '_blank');
     });    
@@ -101,6 +104,7 @@
       $('#c_img').attr('src','imgIcon/c.png');
       
         $('#express_img').attr('src','imgIcon/express.jpg');
+        $('#py_img').attr('src','imgIcon/py.png');
       $('#restapi_img').attr('src','imgIcon/restapi.png');
       $('#laravel_img').attr('src','imgIcon/laravel.png');
       $('#ci_img').attr('src','imgIcon/CI.png');
