@@ -1,6 +1,9 @@
     $('#reactNative').on('click', function(){
        window.open('https://reactnative.dev/', '_blank');
     });    
+    $('#python').on('click', function(){
+       window.open('https://www.python.org/downloads/', '_blank');
+    });    
   
     $('#springBoot').on('click', function(){
        window.open('https://spring.io/projects/spring-boot', '_blank');
@@ -124,6 +127,7 @@
       $('#mysql_img').attr('src','imgIcon/mysql.png');
       $('#sqlserver_img').attr('src','imgIcon/sqlserver.png');
          $('#reactNative_img').attr('src','imgIcon/reactNative.png');
+         $('#python_img').attr('src','imgIcon/python.png');
       $('#springBoot_img').attr('src','imgIcon/springBoot.png');
       $('#microsoft_img').attr('src','imgIcon/microsoft.png');
       $('#azure_img').attr('src','imgIcon/azure.png');
