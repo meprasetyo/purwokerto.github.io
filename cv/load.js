@@ -1,3 +1,10 @@
+    $('#reactNative').on('click', function(){
+       window.open('https://reactnative.dev/', '_blank');
+    });    
+  
+    $('#springBoot').on('click', function(){
+       window.open('https://spring.io/projects/spring-boot', '_blank');
+    });   
     $('#nextJS').on('click', function(){
        window.open('https://nextjs.org/', '_blank');
     });    
@@ -116,6 +123,8 @@
       $('#php8_img').attr('src','imgIcon/php8.png');
       $('#mysql_img').attr('src','imgIcon/mysql.png');
       $('#sqlserver_img').attr('src','imgIcon/sqlserver.png');
+         $('#reactNative_img').attr('src','imgIcon/reactNative.png');
+      $('#springBoot_img').attr('src','imgIcon/springBoot.png');
       $('#microsoft_img').attr('src','imgIcon/microsoft.png');
       $('#azure_img').attr('src','imgIcon/azure.png');
       $('#centos_img').attr('src','imgIcon/centos.png');
