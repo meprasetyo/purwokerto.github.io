@@ -1,6 +1,15 @@
     $('#reactNative').on('click', function(){
        window.open('https://reactnative.dev/', '_blank');
     });    
+    $('#rabbit').on('click', function(){
+       window.open('https://www.rabbitmq.com/', '_blank');
+    });    
+    $('#docker').on('click', function(){
+       window.open('https://www.docker.com/', '_blank');
+    });    
+    $('#redis').on('click', function(){
+       window.open('https://redis.io/', '_blank');
+    });    
     $('#python').on('click', function(){
        window.open('https://www.python.org/downloads/', '_blank');
     });    
@@ -147,5 +156,8 @@
         $('#nextJS_img').attr('src','imgIcon/nextJS.jpg');
       $('#figma_img').attr('src','imgIcon/figma.jpg');
       $('#starUML_img').attr('src','imgIcon/starUML.jpg');
+        $('#redis_img').attr('src','imgIcon/redis.png');
+        $('#docker_img').attr('src','imgIcon/docker.png');
+        $('#rabbit_img').attr('src','imgIcon/rabbit.png');
         $('#Redis_img').attr('src','https://meprasetyo.github.io/Redis.png');
      });
